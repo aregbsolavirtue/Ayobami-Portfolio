@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Portfolio of Ayobami, a Python developer and aspiring AI/ML engineer building practical software and intelligent applications."
+    />
+
+    <meta name="theme-color" content="#080d18" />
+
+    <title>Ayobami | Python Developer & AI/ML Enthusiast</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- NAVIGATION -->
+    <header class="navbar">
+      <div class="nav-container">
+        <a href="#home" class="logo"> AYO<span>.</span> </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="navLinks"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact" class="nav-contact">Let's Talk <span>↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero section-container" id="home">
+        <div class="hero-content">
+          <div class="availability">
+            <span class="status-dot"></span>
+            OPEN TO OPPORTUNITIES
+          </div>
+
+          <p class="eyebrow">HELLO, I'M AYOBAMI</p>
+
+          <h1>
+            Building with
+            <span class="gradient-text">Python</span>, exploring
+            <span class="gradient-text">AI.</span>
+          </h1>
+
+          <p class="hero-description">
+            I'm a software development student and aspiring AI/ML engineer
+            passionate about building practical applications, intelligent
+            systems and technology that solves real-world problems.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              Explore My Work <span>↗</span>
+            </a>
+
+            <a href="#contact" class="btn btn-secondary"> Get in Touch </a>
+          </div>
+
+          <div class="social-links">
+            <a
+              href="https://github.com/aregbsolavirtue"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub ↗
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/virtue-aregbesola-7b05a934b/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn ↗
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image-area">
+          <div class="image-glow"></div>
+
+          <div class="profile-frame">
+            <img
+              src="images/image for portfolio.jpg"
+              alt="Ayobami's Profile Picture"
+              class="profile-image"
+            />
+          </div>
+
+          <div class="floating-card card-top">
+            <span class="floating-icon">⌘</span>
+            <div>
+              <strong>Python</strong>
+              <small>Development</small>
+            </div>
+          </div>
+
+          <div class="floating-card card-bottom">
+            <span class="floating-icon">✦</span>
+            <div>
+              <strong>AI &amp; ML</strong>
+              <small>Continuous learning</small>
+            </div>
+          </div>
+        </div>
+
+        <a href="#about" class="scroll-indicator">
+          <span></span>
+          SCROLL TO EXPLORE
+        </a>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="section-container section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">GET TO KNOW ME</p>
+          <h2>About <span class="gradient-text">Me.</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-main">
+            <h3>
+              Curious about technology. Passionate about building solutions.
+            </h3>
+
+            <p>
+              I'm Ayobami, a software development student with a growing
+              interest in Python programming, Artificial Intelligence and
+              Machine Learning.
+            </p>
+
+            <p>
+              My journey started with interface design and frontend development.
+              Over time, my curiosity expanded towards backend development,
+              data, intelligent applications and AI-powered systems.
+            </p>
+
+            <p>
+              I enjoy learning by building, experimenting with new technologies
+              and working on projects that connect software engineering with
+              real-world problems.
+            </p>
+
+            <a
+              href="assets/Ayobami-CV.pdf"
+              class="text-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View My CV <span>↗</span>
+            </a>
+          </div>
+
+          <div class="about-details">
+            <div class="detail-card">
+              <span class="detail-number">01</span>
+              <div>
+                <h4>Education</h4>
+                <p>Advanced Diploma in Software Engineering</p>
+                <small>Aptech · Awaiting final examinations</small>
+              </div>
+            </div>
+
+            <div class="detail-card">
+              <span class="detail-number">02</span>
+              <div>
+                <h4>Primary Focus</h4>
+                <p>Python, AI & Machine Learning</p>
+                <small>Learning through practical projects</small>
+              </div>
+            </div>
+
+            <div class="detail-card">
+              <span class="detail-number">03</span>
+              <div>
+                <h4>Based In</h4>
+                <p>Nigeria</p>
+                <small>Open to remote opportunities</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section class="section-container section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">MY TOOLKIT</p>
+          <h2>Skills & <span class="gradient-text">Technologies.</span></h2>
+          <p class="section-subtitle">
+            Technologies I've worked with and areas I'm actively developing.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon">Py</div>
+            <h3>Python Development</h3>
+            <p>Building application logic and backend solutions.</p>
+            <div class="skill-tags">
+              <span>Python</span>
+              <span>Flask</span>
+              <span>FastAPI</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">AI</div>
+            <h3>Artificial Intelligence</h3>
+            <p>Exploring AI-powered applications and intelligent systems.</p>
+            <div class="skill-tags">
+              <span>Generative AI</span>
+              <span>Prompt Engineering</span>
+              <span>LLMs</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">ML</div>
+            <h3>Machine Learning</h3>
+            <p>Learning predictive modelling and data-driven techniques.</p>
+            <div class="skill-tags">
+              <span>Scikit-learn</span>
+              <span>Classification</span>
+              <span>Model Evaluation</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">DB</div>
+            <h3>Databases</h3>
+            <p>Working with structured data and database systems.</p>
+            <div class="skill-tags">
+              <span>SQL</span>
+              <span>SQLite</span>
+              <span>MongoDB</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">UI</div>
+            <h3>Web Development</h3>
+            <p>Creating responsive interfaces and web applications.</p>
+            <div class="skill-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">UX</div>
+            <h3>Design & Tools</h3>
+            <p>Designing interfaces and collaborating on development.</p>
+            <div class="skill-tags">
+              <span>Figma</span>
+              <span>Git</span>
+              <span>GitHub</span>
+            </div>
+          </article>
+        </div>
+
+        <p class="skills-note">
+          Skills represent technologies I've used or am currently learning.
+          Proficiency varies by technology.
+        </p>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section class="section-container section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Featured <span class="gradient-text">Projects.</span></h2>
+          <p class="section-subtitle">
+            A collection of software, AI and design projects from my learning
+            journey.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- SUPPORTNOVA -->
+          <article class="project-card featured-project">
+            <div class="project-visual support-visual">
+              <div class="visual-label">GENERATIVE AI PROJECT</div>
+              <div class="dashboard-preview">
+                <div class="preview-header">
+                  <span>SupportNova</span>
+                  <span class="preview-status">● System</span>
+                </div>
+
+                <div class="preview-stat">
+                  <div>
+                    <small>Complaint Analysis</small>
+                    <strong>AI + Rules</strong>
+                  </div>
+                  <div class="preview-symbol">✦</div>
+                </div>
+
+                <div class="preview-lines">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-category">AI ENGINEERING · GROUP PROJECT</div>
+
+              <h3>SupportNova</h3>
+
+              <p>
+                An AI-powered complaint management and resolution system
+                designed for VoltCart, a fictional consumer electronics
+                retailer. It combines Generative AI with Python-based business
+                rules to support structured complaint decisions.
+              </p>
+
+              <div class="contribution">
+                <strong>My contribution</strong>
+                <p>
+                  Complaint dataset preparation, policy and SOP documentation,
+                  Rule Matrix preparation, test-case development, adversarial
+                  testing and technical documentation.
+                </p>
+              </div>
+
+              <div class="project-tags">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>Generative AI</span>
+                <span>Testing</span>
+              </div>
+
+              <a
+                href="https://github.com/aregbsolavirtue/SupportNova"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
+                Explore on GitHub <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- CONEXA -->
+          <article class="project-card">
+            <div class="project-visual conexa-visual">
+              <div class="conexa-preview">
+                <span class="conexa-logo">Con<span>exa</span></span>
+                <p>Find trusted local professionals.</p>
+                <div class="conexa-search">Search for a service...</div>
+                <div class="conexa-service-row">
+                  <span>⚡ Electrical</span>
+                  <span>🔧 Plumbing</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-category">WEB DEVELOPMENT</div>
+
+              <h3>Conexa</h3>
+
+              <p>
+                A Flask-based artisan services platform designed to connect
+                customers with service professionals. The website includes
+                artisan registration, service discovery, profiles and customer
+                requests.
+              </p>
+
+              <div class="project-tags">
+                <span>Python</span>
+                <span>Flask</span>
+                <span>SQLite</span>
+                <span>HTML/CSS</span>
+              </div>
+
+              <a
+                href="https://github.com/aregbsolavirtue/conexa.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
+                Explore on GitHub <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- MUSIC APP -->
+          <article class="project-card">
+            <div class="project-visual music-visual">
+              <div class="design-preview music-preview">
+                <span class="design-caption">MUSIC EXPERIENCE</span>
+                <div class="music-disc">♫</div>
+                <strong>Feel the rhythm.</strong>
+                <small>Music App Concept</small>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-category">UI/UX DESIGN</div>
+
+              <h3>Music App Concept</h3>
+
+              <p>
+                A vibrant and clean music application interface designed in
+                Figma, exploring visual hierarchy and user experience.
+              </p>
+
+              <div class="project-tags">
+                <span>Figma</span>
+                <span>Mobile Design</span>
+                <span>UI/UX</span>
+              </div>
+
+              <a
+                href="https://www.figma.com/design/7EB1c2W6TijPZMmUcXkKsU/Untitled?node-id=0-1&t=wvPtrdJJtkpjVh3D-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
+                View Figma Project <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- ECOMMERCE -->
+          <article class="project-card">
+            <div class="project-visual ecommerce-visual">
+              <div class="design-preview ecommerce-preview">
+                <span class="design-caption">ONLINE SHOPPING</span>
+                <div class="shop-box">SHOP</div>
+                <strong>Discover more.</strong>
+                <small>E-commerce Website</small>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-category">WEB DESIGN</div>
+
+              <h3>E-commerce Website</h3>
+
+              <p>
+                A clean online store interface designed in Figma, focusing on
+                product presentation and a simple shopping experience.
+              </p>
+
+              <div class="project-tags">
+                <span>Figma</span>
+                <span>Web Design</span>
+                <span>UI/UX</span>
+              </div>
+
+              <a
+                href="https://www.figma.com/design/fpwzgOcEkLR9nbCIjJNQgJ/web-design?node-id=0-1&t=MFUAcX0Ha94ndu9O-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
+                View Figma Project <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- FOOD APP -->
+          <article class="project-card">
+            <div class="project-visual food-visual">
+              <div class="design-preview food-preview">
+                <span class="design-caption">FOOD EXPERIENCE</span>
+                <div class="food-icon">✦</div>
+                <strong>Good food, better experience.</strong>
+                <small>Food App Design</small>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-category">UI/UX DESIGN</div>
+
+              <h3>Food App Design</h3>
+
+              <p>
+                A modern food ordering application interface designed in Figma
+                with attention to simplicity and usability.
+              </p>
+
+              <div class="project-tags">
+                <span>Figma</span>
+                <span>Mobile Design</span>
+                <span>UI/UX</span>
+              </div>
+
+              <a
+                href="https://www.figma.com/design/WvTyCxAQjg9JLZ4YctI3oC/Untitled?node-id=0-1&t=BoUU3O2AWzrjjt5Z-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
+                View Figma Project <span>↗</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- LEARNING SECTION -->
+      <section class="section-container learning-section">
+        <div class="learning-content">
+          <p class="eyebrow">ALWAYS EVOLVING</p>
+
+          <h2>
+            Learning today.
+            <span class="gradient-text">Building tomorrow.</span>
+          </h2>
+
+          <p>
+            I'm committed to becoming a stronger software developer by
+            continuously exploring Python, machine learning, AI engineering and
+            practical problem-solving.
+          </p>
+
+          <a
+            href="https://github.com/aregbsolavirtue"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+          >
+            Follow My Journey <span>↗</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section class="section-container section contact-section" id="contact">
+        <div class="contact-content">
+          <p class="eyebrow">LET'S CONNECT</p>
+
+          <h2>
+            Have an idea?
+            <span class="gradient-text">Let's talk.</span>
+          </h2>
+
+          <p>
+            I'm open to learning opportunities, collaborations and conversations
+            about technology, Python and AI.
+          </p>
+
+          <a
+            href="mailto:aregbesolavirtue@gmail.com"
+            class="btn btn-primary contact-button"
+          >
+            Send Me an Email <span>↗</span>
+          </a>
+
+          <div class="contact-email">aregbesolavirtue@gmail.com</div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container">
+        <a href="#home" class="logo">AYO<span>.</span></a>
+
+        <p>Designed & built by Ayobami.</p>
+
+        <a href="#home" class="back-top">Back to top ↑</a>
+      </div>
+
+      <div class="copyright">
+        © <span id=""></span> Ayobami. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
